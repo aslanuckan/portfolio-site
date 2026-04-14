@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    margin: 0;
+    padding: 0;
+}
+
+/* Ana kart */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Kart hover efekti */
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Profil foto */
+.profile {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+/* Foto hover */
+.profile:hover {
+    transform: scale(1.1);
+}
+
+/* Başlıklar */
+h1 {
+    color: #1e3c72;
+}
+
+h2 {
+    color: #2a5298;
+    margin-top: 20px;
+}
+
+/* Yazılar */
+p, li {
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Liste */
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Sosyal butonlar */
+.socials {
+    margin: 15px 0;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    background: #2a5298;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* Buton hover */
+.socials a:hover {
+    background: #1e3c72;
+    transform: scale(1.05);
+}
